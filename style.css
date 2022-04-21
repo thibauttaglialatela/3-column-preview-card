@@ -16,12 +16,22 @@ h1 {
     font-family: 'Overpass', sans-serif;
     font-weight: 700;
     font-size: 2rem;
+    color: hsl(0, 0%, 95%);
 }
 
 p {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    background-color: #f2f2f2;
+    color: #4F4F4F;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 1rem;
 }
 
 main {
@@ -35,7 +45,13 @@ main {
 
 article {
     width: 75vw;
-    border: 20px;
+    border-radius: 15px;
+    border: solid 1px;
+    padding: 2rem 1rem;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
 }
 
 .attribution {
