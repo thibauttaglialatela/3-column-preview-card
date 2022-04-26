@@ -63,6 +63,7 @@ article {
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
 }
 
 .suvs {
@@ -71,9 +72,41 @@ article {
 
 .luxury {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
 }
 
 .attribution {
     color:aliceblue;
     margin-top: auto;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        padding: 0 2rem;
+    }
+
+    h1 {
+        padding-left: 1.5rem;
+    }
+
+    button {
+        margin-left: 1.563rem;
+    }
+
+    .sedans {
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .suvs {
+        border-radius: 0;
+    }
+    
+    .luxury {
+        border-radius: 0 10px 10px 0
+    }
+
+    svg {
+        margin-left: 1rem;
+    }
+
 }
